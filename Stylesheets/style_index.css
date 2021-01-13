@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;0,900;1,700;1,900&family=Montserrat:wght@100;200;300&display=swap");
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("/Images/website-1-final-dark.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1280 610;
+}
+
+#main {
+  padding-left: 25;
+  padding-top: 25;
+  padding-bottom: 10%;
+}
+
+#hi {
+  color: rgb(255, 234, 167);
+  font-family: "Exo";
+  font-style: italic;
+  font-size: 22;
+  margin-bottom: -15;
+  margin-top: 9%;
+}
+
+.text-3d {
+  width: 50%;
+  color: #00cec9;
+  font-family: "Exo";
+  font-style: italic;
+  font-size: 70;
+  text-shadow: 0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text-3d:hover {
+  color: #00cec9;
+  font-family: "Exo";
+  font-style: italic;
+  font-size: 70;
+  text-shadow: 0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110),
+    0 7px 0 rgb(255, 221, 89), 0 8px 0 rgb(255, 221, 89);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#desc {
+  color: rgb(255, 234, 167);
+  font-family: "Exo";
+  font-style: italic;
+  font-size: 28;
+  /*margin-bottom: ;*/
+  margin-top: -10;
+  margin-bottom: 10;
+}
+
+#body {
+  color: aliceblue;
+  width: 100%;
+}
+
+#para {
+  width: 50%;
+  font-family: "Montserrat";
+  float: left;
+}
+
+#contact-card {
+  margin-right: 3.5%;
+  width: 30%;
+  float: right;
+  padding-top: 10;
+}
+
+.button {
+  float: right;
+  margin: 1%;
+  padding: 3%;
+  background-color: aqua;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110);
+}
+
+.button:hover {
+  box-shadow: 0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110),
+    0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110),
+    0 7px 0 rgb(255, 221, 89), 0 8px 0 rgb(255, 221, 89);
+}
+
+footer {
+  margin-top: -50;
+  display: grid;
+  place-items: center;
+}
+
+#triangle {
+  color: rgb(232, 65, 24);
+  transform: scaleX(2.5);
+  font-size: 65px;
+  text-shadow: 0 1px 0px rgb(255, 127, 80), 0 2px 0px rgb(255, 127, 80),
+    0 3px 0px rgb(255, 127, 80), 0 4px 0px rgb(255, 127, 80),
+    0 5px 0px rgb(255, 127, 80), 0 6px 0px rgb(255, 127, 80);
+  animation-name: stretch;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+#triangle:hover {
+  text-shadow: 0 1px 0px rgb(255, 127, 80), 0 2px 0px rgb(255, 127, 80),
+    0 3px 0px rgb(255, 127, 80), 0 4px 0px rgb(255, 127, 80),
+    0 5px 0px rgb(255, 127, 80), 0 6px 0px rgb(255, 127, 80),
+    0 7px 0px rgb(255, 127, 80), 0 8px 0px rgb(255, 127, 80),
+    0 9px 0px rgb(255, 127, 80);
+}
+
+@keyframes stretch {
+  0% {
+    transform: scaleX(2.1);
+  }
+
+  100% {
+    transform: scaleX(2.7);
+  }
+}

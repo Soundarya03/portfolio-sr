@@ -1,0 +1,25 @@
+#contact-card {
+  margin-right: 3%;
+  width: 30%;
+  float: right;
+}
+
+.button {
+  float: right;
+  margin: 1%;
+  padding: 3%;
+  background-color: aqua;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110);
+}
+
+.button:hover {
+  box-shadow: 0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110),
+    0 1px 0 rgb(0, 255, 255), 0 2px 0 rgb(129, 236, 236),
+    0 4px 0 rgb(253, 203, 110), 0 5px 0 rgb(253, 203, 110),
+    0 7px 0 rgb(255, 221, 89), 0 8px 0 rgb(255, 221, 89);
+}
